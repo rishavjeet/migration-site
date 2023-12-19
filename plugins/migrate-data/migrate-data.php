@@ -24,6 +24,7 @@ if( defined('WP_CLI') && WP_CLI ){
 	require_once MIGRATE_DATA_PLUGIN_PATH . '/inc/classes/class-migrate-user.php';
 	require_once MIGRATE_DATA_PLUGIN_PATH . '/inc/classes/class-migrate-categories.php';
 	require_once MIGRATE_DATA_PLUGIN_PATH . '/inc/classes/class-migrate-articles.php';
+	require_once MIGRATE_DATA_PLUGIN_PATH . '/inc/classes/class-cleanup.php';
 }
 
 function migrate_data_plugin_db_connect(){
